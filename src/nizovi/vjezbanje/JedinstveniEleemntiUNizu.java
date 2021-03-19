@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class JedinstveniEleemntiUNizu {
     public static void main(String[] args) {
-        System.out.println("Bla");
+        System.out.println("Bla 123");
         int[] korisnikovNiz = {2, 3, 2, 45, 45, 45, 45};
         System.out.println("Arrays.toString(bezDuplih).toString() = " + bezDuplihGarant(korisnikovNiz));
     }
