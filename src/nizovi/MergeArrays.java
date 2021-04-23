@@ -1,11 +1,5 @@
 package nizovi;
 
-import MyUtil.PomocnaKlasa;
-
-import java.awt.image.AreaAveragingScaleFilter;
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class MergeArrays {
     public static void main(String[] args) {
         double tezinaPrvogPaketa = 10;

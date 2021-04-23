@@ -1,7 +1,5 @@
 package osnoveProgramiranja;
 
-import java.util.Scanner;
-
 public class PovrsinaKruga {
 
 	public static void main(String[] args) {

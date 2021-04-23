@@ -1,7 +1,5 @@
 package osnoveProgramiranja;
 
-import metode.MetodePonavljanje;
-
 public class Modulo {
     public static void main(String[] args) {
         int ukupnosSekundi = 500;
