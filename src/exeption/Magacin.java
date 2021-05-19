@@ -8,27 +8,22 @@ public class Magacin {
 
     public Magacin(String adresa) {
         this.adresa = adresa;
-        imenaMagacionera = new ArrayList<>();
+        this.imenaMagacionera = new ArrayList<>();
     }
 
     public ArrayList<String> getImenaMagacionera() {
         return imenaMagacionera;
-    }
 
+    }
     public void setImenaMagacionera(ArrayList<String> imenaMagacionera) {
         this.imenaMagacionera = imenaMagacionera;
     }
-
-
     public String getAdresa() {
         return adresa;
     }
-
     public void setAdresa(String adresa) {
         this.adresa = adresa;
     }
-
-
     public void dodajMagacionera(String imeMagacionera) {
         this.imenaMagacionera.add(imeMagacionera);
     }

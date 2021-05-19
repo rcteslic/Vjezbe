@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class ScannerReader {
     public static void main(String[] args) throws IOException {
 
-        Path path = Paths.get("scores.txt");
-        Scanner input = new Scanner(path);
+        Path putanajDoFajla = Paths.get("suma.txt");
+        Scanner input = new Scanner(putanajDoFajla);
         ArrayList<Student> studenti = new ArrayList<>();
         while (input.hasNext()) {
 
